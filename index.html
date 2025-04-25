@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fahim Ahmed | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #58a6ff;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 40px;
+    }
+    a.button {
+      background-color: #58a6ff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fahim Ahmed</h1>
+  <p>IT Professional | Tech Enthusiast | Content Creator</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I’m Fahim, a tech-savvy individual passionate about systems, security, automation, and creative digital content. I thrive at the intersection of technology and storytelling.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x160?text=Project+1" alt="Project 1">
+      <div class="card-content">
+        <h3>System Automation</h3>
+        <p>Automated Linux server deployment using Ansible for a secure production environment.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x160?text=Project+2" alt="Project 2">
+      <div class="card-content">
+        <h3>Personal Vlog Channel</h3>
+        <p>Running a YouTube channel focused on life, travel, and tech from Bangladesh to Canada.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x160?text=Project+3" alt="Project 3">
+      <div class="card-content">
+        <h3>Web Portfolio</h3>
+        <p>This portfolio site, built with HTML and GitHub Pages, is part of my learning journey.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Let’s connect! Reach out via <a href="mailto:fahim@example.com">fahim@example.com</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Fahim Ahmed. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
